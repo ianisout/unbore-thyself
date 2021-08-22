@@ -3,6 +3,7 @@ const getActivity = async () => {
     await axios.get('http://www.boredapi.com/api/activity/').then((res) => {
       let data = res.data;
       document.getElementById('activity-data').innerHTML = `${data.activity}!`;
+      console.log(res.data.activity)
     })
   } catch(err) {
     console.error(err);
@@ -19,7 +20,5 @@ const getImage = async () => {
   }
 }
 
-(function data(){
-  getActivity();
-  getImage();
-})();
+getActivity();
+getImage();
