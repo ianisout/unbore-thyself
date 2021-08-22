@@ -7,42 +7,33 @@
     <script src="script.js" defer></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>I miss stumbleupon</title>
+    <title>I miss StumbleUpon</title>
   </head>
   <body>
     <main>
       <div class="main-title">
         <h1>Unbore thyself</h1>
-      <span>or: <strong>I miss StumbleUpon</strong></span>
-      <h3>Paying homage to the deceased, to-go source of boredom therapy.</h3>
+      <span id="subtitle"><em>or: <span id="strong">I miss StumbleUpon</span></em></span>
+      <span id="site-description">Paying homage to the deceased, to-go source of boredom therapy.</span>
       </div>
+      <hr>
       <div class="activity">
-        <a href=""><button onclick="getActivity()">Gimme an activity</button></a>
-        <div class="description">
-          <h3 id="activity-data"></h3>
-          <img src="" alt="Random activity image" id="activity-img">
-          <span>Above is a great and probably not accurate image of the activity:</span>
-        </div>
+        <p>Nothing to do? Try to:</p> 
+        <h3 id="activity-data"></h3>
+          <img alt="Random activity image" id="activity-img">
+          <span id="img-description"><em>Above is a great and probably not accurate image of the activity.</em></span>
+          <a href=""><button onclick="getActivity()">Try a new one</button></a> 
       </div>
     </main>
     <footer>
       <div class="message">
-        <span
-          >Created only for the practice of consuming APIs, awful nice of you to drop
-          by.</span
-        >
-        <span> Also, please bring back StumbleUpon. </span>
+        <p>Created only for the practice of consuming APIs, awful nice of you to drop
+          by. Also, someone please bring back StumbleUpon.</p>
       </div>
 
       <div class="links">
-        <ul>
-          <li class="media-item">
-            <img src="" alt="" /><a href="http://">GitHub</a>
-          </li>
-          <li class="media-item">
-            <img src="" alt="" /><a href="http://">LinkedIn</a>
-          </li>
-        </ul>
+        <a href="https://github.com/ianisout" target=”_blank”><img src="github-logo.png" alt="GitHub logo" />ianisout</a>
+        
       </div>
     </footer>
   </body>

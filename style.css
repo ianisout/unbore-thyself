@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500;600;800&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -7,4 +6,140 @@
 body {
   font-family: 'Urbanist', sans-serif;
   display: flex;
+  flex-direction: column;
+  background-color: #ff7a5c;
+  margin: 0;
+  align-items: center;
+}
+
+main {
+  background-color: #fafafa;
+  color: gray;
+  padding: 30px;
+  max-width: 1080px;
+  width: 100%;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 60px;
+  margin: 0;
+  color: #EB4824;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+#subtitle {
+  color: gray;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+#strong {
+  font-weight: 500;
+}
+
+#site-description {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.activity p {
+  color: #EB4824;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#img-description {
+  margin: 10px;
+  font-weight: 300;
+}
+
+.activity img {
+  max-width: 600px;
+  width:100%;
+}
+
+
+button {
+  color: #fafafa;
+  background-color: #EB4824;
+  font-size: 20px;
+  text-decoration: none;
+  border: solid 1px #fafafa;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  color: #EB4824;
+  background-color: #fafafa;
+  border: solid 1px #EB4824;
+}
+
+footer {
+  background-color: gray;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  width: 100%;
+  padding: 15px 0;
+  align-items: center;
+  color: #fafafa;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links img {
+  width: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fafafa;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 460px) {
+  body{
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .activity p{
+    margin: 0;
+  }
 }
