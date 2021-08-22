@@ -1,3 +1,3 @@
-A simple project with the sole intent to get data from APIs and apply them to the page using axios.
+A simple project with the sole intent to consume data from APIs.
 
-UPDATE: images are not being loaded on GitHub pages. An API for the pictures will be added soon.
+<a href="https://github.com/axios/axios">Axios</a> • <a href="https://www.boredapi.com/">Bored API</a> • <a href="https://picsum.photos/">Lorem Picsum</a>
