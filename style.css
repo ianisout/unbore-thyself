@@ -67,16 +67,28 @@ h3 {
   margin-bottom: 10px;
 }
 
+#activity-picture {
+  background-image: url('https://picsum.photos/600/400?random=638');
+  width: 600px;
+  height: 400px;
+  background-position: center;
+  display: flex;
+}
+
+#source {
+  width: inherit;
+  color: #fafafa;
+  font-size: 10px;
+  font-weight: 300;
+  text-shadow: 0.5px 0.5px black;
+  align-self: flex-end;
+  padding-bottom: 5px;
+}
+
 #img-description {
   margin: 10px;
   font-weight: 300;
 }
-
-.activity img {
-  max-width: 600px;
-  width:100%;
-}
-
 
 button {
   color: #fafafa;
@@ -139,7 +151,19 @@ footer {
     font-size: 30px;
   }
 
+  #site-description {
+    font-size: 15px;
+  }
+
+  #activity-picture {
+    width: calc(100vw - 60px);
+  }
+
   .activity p{
     margin: 0;
+  }
+
+  .message {
+    margin: 0 10px;
   }
 }
