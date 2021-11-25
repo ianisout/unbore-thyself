@@ -1,4 +1,4 @@
-# Unbore Thyself
+# <a href="https://ianisout.github.io/unbore-thyself/">Unbore Thyself</a>
 ### or: I miss StumbleUpon
 Paying homage to the deceased, to-go source of boredom therapy.
 A simple project with the sole intent to consume data from APIs.
