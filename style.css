@@ -72,6 +72,7 @@ h3 {
   height: 400px;
   background-position: center;
   display: flex;
+  background-image: url('https://picsum.photos/600/400');
 }
 
 #source {
